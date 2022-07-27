@@ -10,11 +10,12 @@ public class AntecessorSucessor {
 
 		System.out.println("Digite um número:");
 		int numero = scan.nextInt();
+		int antecessor = numero - 1;
+		int sucessor = numero + 1;
 		
-		// Seu código aqui
 				
 		// Imprime a saída no console. OBS: descomente a próxima linha
-		//System.out.println("O número " + numero + " tem "+ antecessor + " como seu antecessor e " + sucessor + " como seu sucessor.");
+		System.out.println("O número " + numero + " tem "+ antecessor + " como seu antecessor e " + sucessor + " como seu sucessor.");
 
 	}
 
